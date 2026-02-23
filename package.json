@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next build && next start",
-    "export": "next export",
-    "lint": "next lint"
-  },
+  "build:android": "next build && next export",
+  "cap:sync": "npx cap sync",
+  "android:open": "npx cap open android"
+},
   "dependencies": {
     "@charcoal-ui/icons": "^2.6.0",
     "@tailwindcss/line-clamp": "^0.4.4",
